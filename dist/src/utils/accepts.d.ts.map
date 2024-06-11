@@ -1,0 +1,1 @@
+{"version":3,"file":"accepts.d.ts","sourceRoot":"","sources":["../../../src/utils/accepts.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,eAAe,EAAE,MAAM,MAAM,CAAA;AACtC,OAAO,EAAE,KAAK,iBAAiB,EAAE,MAAM,aAAa,CAAA;AA+BpD,QAAA,MAAM,OAAO,YAAY,CAAC,eAAe,GAAG,iBAAiB,CAAC,CAAC,SAAS,CAAC,aAChE,MAAM,GAAG,MAAM,EAAE,qBAmBvB,CAAA;AAEH,eAAe,OAAO,CAAA"}
