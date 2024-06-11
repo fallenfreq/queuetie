@@ -3,8 +3,8 @@ import type { AugmentedResponse } from '../response.js'
 import type { Next } from './middleware.js'
 import type { RouterCall } from './router.js'
 
-// using symbols is causing an error
-// Exported variable 'secureProcedure' has or is using name 'paramSymbol' from external module "/Users/michael/dev/localmods/server/dist/src/response" but cannot be named.ts(4023)
+// Using symbols is causing an error
+// Exported variable 'secureProcedure' has or is using name 'paramSymbol' from external module "" but cannot be named.ts(4023)
 
 const paramSymbol = 'someUniqueKeyParamSymbol' // Symbol('param')
 const checkAgainstSymbol = 'someUniqueKeycheckAgainstSymbol' // Symbol('checkAgainst')
