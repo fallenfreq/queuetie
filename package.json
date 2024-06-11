@@ -1,0 +1,38 @@
+{
+  "name": "queuetie",
+  "version": "0.0.1",
+  "description": "Routing and middleware framework",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/src/index.js",
+      "types": "./dist/src/index.d.ts"
+    },
+    "./types": {
+      "import": "./dist/types/types.js",
+      "types": "./dist/types/types.d.ts"
+    },
+    "./utils/*": {
+      "import": "./dist/src/utils/*.js",
+      "types": "./dist/src/utils/*.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.7"
+  },
+  "repository": {
+    "url": "git+https://github.com/fallenfreq/queuetie.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fallenfreq/queuetie#readme",
+  "author": "fallenfreq",
+  "prepare": "pnpm build",
+  "prepublishOnly": "pnpm test",
+  "packageManager": "pnpm@9.0.4+sha256.caa915eaae9d9aefccf50ee8aeda25a2f8684d8f9d5c6e367eaf176d97c1f89e"
+}
